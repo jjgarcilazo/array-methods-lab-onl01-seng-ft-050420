@@ -3,7 +3,8 @@ array.include?(element)
 end
 
 def using_sort(array)
-array.sort?(element)
+sorted_array = array.sort
+sorted_array
 end
 
 def using_reverse(array)
